@@ -1,0 +1,31 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "name": "Just The Tip",
+                "symbol": "jXXXt ",
+                "decimals": "9",
+                "supply": "8181818181818"
+            }
+        },
+        {
+            "category": "file_storage",
+            "name": "core-ipfs",
+            "parameters": {
+                "mode": "single"
+            }
+        }
+    ],
+    "blockchain": "polygon",
+    "language": "solidity",
+    "framework": "vanilla"
+}
